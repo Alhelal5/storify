@@ -18,8 +18,11 @@
 }
 .container{
     max-width: 1140px;
+}
+.hero .container, .content-container{
     padding: 72px 16px;
 }
+
 .container p{
     margin-top: 30px;
     font-size: min(max(14px, 4vw), 18px);
@@ -73,22 +76,43 @@ footer .line{
     padding-top: 12px;
     height: 30px;
 }
-/* background-color: rgb(255, 107, 0);
-        background-size: cover;
-        background-position: center center;
-        background-image: url("https://www.giide.com/static/media/orange-testimonials.b7310ac6.png");
-        padding-top: 12px;
-        padding-bottom: 12px;
-        display: flex;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-pack: start;
-        justify-content: flex-start; */
+
 footer .q-img{
     width: 125px;
     height: 30px;
-    margin: 15px;
+    margin: 15px 0;
 }
+
+
+/* training css starts here   */
+/* training css starts here   */
+.t-head{
+    padding: 60px 0;
+}
+.t-head h1{
+    font-size: 34px;
+    font-weight: lighter;
+    color: inherit;
+    /* margin-bottom: 60px; */
+}
+.video{
+    margin-bottom: 20px;
+}
+.video iframe{
+    border-radius: 6px;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.top-line{
+    border-top: 1px solid rgb(184, 184, 184);
+}
+
+
+
+
 /* 
 .row > div {
   padding: 10px 15px;
