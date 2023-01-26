@@ -84,12 +84,12 @@ footer .q-img{
 }
 
 
-/* training css starts here   */
-/* training css starts here   */
-.t-head{
+                /* training css starts here   */
+                /* training css starts here   */
+.training-heading{
     padding: 60px 0;
 }
-.t-head h1{
+.training-heading h1{
     font-size: 34px;
     font-weight: lighter;
     color: inherit;
@@ -99,14 +99,14 @@ footer .q-img{
     margin-bottom: 20px;
 }
 .video iframe{
-    border-radius: 6px;
+    border-radius: 8px;
 }
 
 h3{
     font-size: 22px;
     font-weight: bold;
 }
-.top-line{
+.footer-line{
     border-top: 1px solid rgb(184, 184, 184);
 }
 
