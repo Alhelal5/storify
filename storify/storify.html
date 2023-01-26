@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <!--
+    WARNING! Make sure that you match all Quasar related
+    tags to the same version! (Below it's "@2.11.5")
+  -->
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/quasar@2.11.5/dist/quasar.prod.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- example of injection point where you write your app template -->
+    <div id="q-app">
+
+      <!-- hero section starts  -->
+        <div class="hero">
+          <div class="container">
+            <div class="row items-center">
+              <div class="col-xs-12 col-sm-6">
+                <h1>The smart solution for content marketers.</h1>
+                <p>Your voice combined with an interactive feed. Create & share Stories in a matter of minutes and measure audience engagement with ease.</p>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <div class="row">
+                  <div class="col-auto text-center full-width">
+                    <q-img 
+                    src="./image/trainer.PNG"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- hero section end  -->
+
+      <!-- main content section starts  -->
+        <div class="container content-container">
+          <div class="row content-heading">
+            <div class="text-center">
+              <h2>Share content on a personal level..</h2>
+              <h1>All in one smart content creation.</h1>
+            </div>
+          </div>
+          <div class="row sub-section items-center q-col-gutter-xl">
+            <div class="col-12 col-sm-6">
+              <h1>Create content that grabs the attention of your audience.</h1>
+              <p>No need for any advanced skills or your own production team anymore. Storify’s smart interactive setup combines human voice with a visual feed. Add links, social profiles, images, quotes and much more. Make YOUR story NOW!</p>
+            </div>
+            <div class="col-12 col-sm-6">
+              <q-img 
+              src="./image/pexels-photo.webp"
+              />
+            </div>
+          </div>
+
+          <div class="row sub-section items-center q-col-gutter-xl">
+            <div class="content col-xs-12 col-sm-6">
+              <q-img 
+              src="./image/pexels-photo-1229861.webp"
+              />
+            </div>
+            <div class="content col-xs-12 col-sm-6">
+              <h1>Be consistent - Never stop creating content.</h1>
+              <p>Storify’s easy to use interface enables you to create high-quality smart content in minutes. You come up with the idea, and Storify makes sure your content looks amazing so you can focus on your business.</p>
+            </div>
+          </div>
+
+          <div class="row sub-section items-center q-col-gutter-xl">
+            <div class="content col-xs-12 col-sm-6">
+              <h1>Measure how your audience interacts with your Stories.</h1>
+              <p>Measure audience interaction with performance analytics and boost it.</p>
+            </div>
+            <div class="content col-xs-12 col-sm-6">
+              <q-img 
+              src="./image/pexels-photo-4476366.webp"
+              />
+            </div>
+          </div>
+
+          <div class="row sub-section items-center q-col-gutter-xl">
+            <div class="content col-xs-12 col-sm-6">
+              <q-img 
+              src="./image/pexels-photo-590014.jpeg"
+              />
+            </div>
+            <div class="content col-xs-12 col-sm-6">
+              <h1>Make content easy and interesting.</h1>
+              <p>Storify’s audio+visual setup enables you to bring complex subjects to life. Gone are the days when you needed to create a long article, training video, or case study.</p>
+            </div>
+          </div>
+        </div>
+        <!-- main content section end  -->
+
+        <footer>
+          <div class="text-center">
+              <div class="line"></div>
+              <q-img 
+              src="./image/logo.6e466c62.png"
+              />
+          </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Add the following at the end of your body tag -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/quasar@2.11.5/dist/quasar.umd.prod.js"></script>
+    
+    <script>
+      /*
+        Example kicking off the UI. Obviously, adapt this to your specific needs.
+        Assumes you have a <div id="q-app"></div> in your <body> above
+       */
+      //  import { ref } from 'vue'
+
+      //   export default {
+      //     setup () {
+      //       const url = ref('https://images.pexels.com/photos/35969/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+      //     }
+      //   }
+
+      const app = Vue.createApp({
+        setup () {
+          return {}
+        }
+      })
+
+      app.use(Quasar)
+      app.mount('#q-app')
+    </script>
+  </body>
+</html>
